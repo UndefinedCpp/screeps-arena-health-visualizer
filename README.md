@@ -12,6 +12,9 @@ export function loop() {
     getObjectsByPrototype(Creep).forEach(creep => showHealthBar(creep););
 }
 ```
+![example](./example.jpg)
+
+
 In fact, it's capable for all objects containing property `x`, `y`, `hits`, and `hitsMax`. You can apply `StructureTower` to it too.
 
 ## Contribution
